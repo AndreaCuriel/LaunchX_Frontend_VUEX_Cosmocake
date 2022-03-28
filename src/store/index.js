@@ -162,7 +162,7 @@ export default createStore({
         " Email: " +
         state.cliente.email;
       state.pedidos.ordenes[state.contador] =
-        "Sabores: " + ordenS + "  Adornos: " + ordenS;
+        "Sabores: " + ordenS + "  Adornos: " + ordenA;
       state.pedidos.descripcion[state.contador] = state.cliente.descripcion;
       console.log(state.pedidos.clientes[state.contador]);
       console.log(state.pedidos.ids);
